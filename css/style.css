@@ -1,0 +1,121 @@
+/* BODY */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+/* CAROUSEL & PROMO */
+.carousel-container {
+display: flex;
+justify-content: center; /* Центрує вміст */
+align-items: center;
+gap: 20px;
+
+padding: 40px 0;
+}
+
+
+.carousel {
+    flex: 1;
+    max-width: 600px;
+    height: auto;
+    margin-left: 0px;
+}
+
+.promo-banner {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #555;
+    border-radius: 10px;
+    background-color: #ececec;
+    height: auto;
+    
+    flex: 1; /* Розтягнути банери і карусель рівномірно */
+    max-width: 300px; /* Фіксована ширина для банерів */
+}
+
+.promo-banner h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+.promo-banner p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.promo-banner a {
+    margin-top: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #2b2d42;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.additional-info {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #d4d4aa;
+    border-radius: 8px;
+}
+
+.accordion-button {
+    background-color: #d4d4aa !important;
+    color: #333;
+    font-weight: bold;
+}
+/* FOOTER */footer {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.data-table,
+.registration-form {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.data-table table {
+    width: 100%;
+    text-align: left;
+}
+
+.data-table th,
+.data-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.registration-form input,
+.registration-form button {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.registration-form button {
+    background-color: #2b2d42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #444;
+}
